@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-06T04:39:20.434Z",
+        "line": 3,
+        "name": "Search for an IPad",
+        "description": "",
+        "id": ";search-for-an-ipad",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8580000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the amazon home page2",
+            "match": {
+              "location": "StepDefinition.SearchForAnIPad.user_is_on_the_amazon_home_page2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4525000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for an IPad",
+            "match": {
+              "location": "StepDefinition.SearchForAnIPad.user_search_for_an_i_pad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the result page should be displayed2",
+            "match": {
+              "location": "StepDefinition.SearchForAnIPad.the_result_page_should_be_displayed2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to see the total count",
+            "match": {
+              "location": "StepDefinition.SearchForAnIPad.user_should_be_able_to_see_the_total_count()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Search_For_An_IPad.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-06T04:39:33.869Z",
+        "line": 3,
+        "name": "Search for an Iphone 11",
+        "description": "",
+        "id": ";search-for-an-iphone-11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8177000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the amazon home page",
+            "match": {
+              "location": "StepDefinition.SearchForAnIphone.user_is_on_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4819000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for an iphone 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.SearchForAnIphone.user_search_for_an_iphone(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the result page should be displayed",
+            "match": {
+              "location": "StepDefinition.SearchForAnIphone.the_result_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Search_For_An_Iphone.feature",
+    "tags": []
+  }
+]

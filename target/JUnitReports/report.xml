@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.334">
+<testcase classname="" name="Search for an IPad" time="13.424">
+<system-out><![CDATA[Given user is on the amazon home page2......................................passed
+When user search for an IPad................................................passed
+Then the result page should be displayed2...................................passed
+And user should be able to see the total count..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="Search for an Iphone 11" time="13.157">
+<system-out><![CDATA[Given user is on the amazon home page.......................................passed
+When user search for an iphone 11...........................................passed
+Then the result page should be displayed....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
