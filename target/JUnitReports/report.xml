@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.334">
-<testcase classname="" name="Search for an IPad" time="13.424">
-<system-out><![CDATA[Given user is on the amazon home page2......................................passed
-When user search for an IPad................................................passed
-Then the result page should be displayed2...................................passed
-And user should be able to see the total count..............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="33.613">
+<testcase classname="" name="Login with Valid credential" time="11.771">
+<system-out><![CDATA[Given browser is open.......................................................passed
+When user navigate to the website...........................................passed
+And user is on the login page...............................................passed
+And user enters username as "abc" and password as "12345"...................passed
+And click on Login button...................................................passed
+Then the register page is displayed.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="" name="Search for an Iphone 11" time="13.157">
-<system-out><![CDATA[Given user is on the amazon home page.......................................passed
-When user search for an iphone 11...........................................passed
-Then the result page should be displayed....................................passed
+<testcase classname="" name="Login with Valid credential 2" time="10.819">
+<system-out><![CDATA[Given browser is open.......................................................passed
+When user navigate to the website...........................................passed
+And user is on the login page...............................................passed
+And user enters username as "xyz" and password as "12345"...................passed
+And click on Login button...................................................passed
+Then the register page is displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="Login with Valid credential 3" time="10.353">
+<system-out><![CDATA[Given browser is open.......................................................passed
+When user navigate to the website...........................................passed
+And user is on the login page...............................................passed
+And user enters username as "mohamed" and password as "12345"...............passed
+And click on Login button...................................................passed
+Then the register page is displayed.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

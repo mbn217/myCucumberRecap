@@ -1,91 +1,280 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/Search_For_An_IPad.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureTags/LoginFeature.feature");
 formatter.feature({
   "name": "",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Search for an IPad",
+formatter.scenarioOutline({
+  "name": "Login with Valid credential",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
 });
 formatter.step({
-  "name": "user is on the amazon home page2",
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user navigate to the website",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters username as \"\u003cusername\u003e\" and password as \"\u003cpassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "click on Login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "the register page is displayed",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "abc",
+        "12345"
+      ]
+    },
+    {
+      "cells": [
+        "xyz",
+        "12345"
+      ]
+    },
+    {
+      "cells": [
+        "mohamed",
+        "12345"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Login with Valid credential",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "browser is open",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIPad.user_is_on_the_amazon_home_page2()"
+  "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user search for an IPad",
+  "name": "user navigate to the website",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIPad.user_search_for_an_i_pad()"
+  "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the result page should be displayed2",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.SearchForAnIPad.the_result_page_should_be_displayed2()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should be able to see the total count",
+  "name": "user is on the login page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIPad.user_should_be_able_to_see_the_total_count()"
+  "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"
 });
-formatter.uri("file:src/test/resources/Features/Search_For_An_Iphone.feature");
-formatter.feature({
-  "name": "",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Search for an Iphone 11",
-  "description": "",
-  "keyword": "Scenario"
-});
 formatter.step({
-  "name": "user is on the amazon home page",
-  "keyword": "Given "
+  "name": "user enters username as \"abc\" and password as \"12345\"",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIphone.user_is_on_the_amazon_home_page()"
+  "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user search for an iphone 11",
-  "keyword": "When "
+  "name": "click on Login button",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIphone.user_search_for_an_iphone(java.lang.Integer)"
+  "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the result page should be displayed",
+  "name": "the register page is displayed",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.SearchForAnIphone.the_result_page_should_be_displayed()"
+  "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Login with Valid credential",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user navigate to the website",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters username as \"xyz\" and password as \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the register page is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Login with Valid credential",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user navigate to the website",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters username as \"mohamed\" and password as \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the register page is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
 });
 formatter.result({
   "status": "passed"

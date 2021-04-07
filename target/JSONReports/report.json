@@ -3,125 +3,295 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-06T04:39:20.434Z",
-        "line": 3,
-        "name": "Search for an IPad",
+        "start_timestamp": "2021-04-07T03:35:52.716Z",
+        "line": 13,
+        "name": "Login with Valid credential",
         "description": "",
-        "id": ";search-for-an-ipad",
+        "id": ";login-with-valid-credential;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8580000000,
+              "duration": 4227000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "user is on the amazon home page2",
+            "name": "browser is open",
             "match": {
-              "location": "StepDefinition.SearchForAnIPad.user_is_on_the_amazon_home_page2()"
+              "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4525000000,
+              "duration": 1702000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user search for an IPad",
+            "name": "user navigate to the website",
             "match": {
-              "location": "StepDefinition.SearchForAnIPad.user_search_for_an_i_pad()"
+              "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 95000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "the result page should be displayed2",
+            "name": "user is on the login page",
             "match": {
-              "location": "StepDefinition.SearchForAnIPad.the_result_page_should_be_displayed2()"
+              "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 136000000,
+              "duration": 212000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user should be able to see the total count",
+            "name": "user enters username as \"abc\" and password as \"12345\"",
             "match": {
-              "location": "StepDefinition.SearchForAnIPad.user_should_be_able_to_see_the_total_count()"
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 25
+                },
+                {
+                  "val": "12345",
+                  "offset": 47
+                }
+              ],
+              "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Login button",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3461000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the register page is displayed",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
-      }
-    ],
-    "name": "",
-    "description": "",
-    "id": "",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Search_For_An_IPad.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
+      },
       {
-        "start_timestamp": "2021-04-06T04:39:33.869Z",
-        "line": 3,
-        "name": "Search for an Iphone 11",
+        "start_timestamp": "2021-04-07T03:36:04.495Z",
+        "line": 14,
+        "name": "Login with Valid credential",
         "description": "",
-        "id": ";search-for-an-iphone-11",
+        "id": ";login-with-valid-credential;;3",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8177000000,
+              "duration": 3364000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "user is on the amazon home page",
+            "name": "browser is open",
             "match": {
-              "location": "StepDefinition.SearchForAnIphone.user_is_on_the_amazon_home_page()"
+              "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4819000000,
+              "duration": 1655000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user search for an iphone 11",
+            "name": "user navigate to the website",
             "match": {
-              "arguments": [
-                {
-                  "val": "11",
-                  "offset": 26
-                }
-              ],
-              "location": "StepDefinition.SearchForAnIphone.user_search_for_an_iphone(java.lang.Integer)"
+              "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 156000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "the result page should be displayed",
+            "name": "user is on the login page",
             "match": {
-              "location": "StepDefinition.SearchForAnIphone.the_result_page_should_be_displayed()"
+              "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username as \"xyz\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 25
+                },
+                {
+                  "val": "12345",
+                  "offset": 47
+                }
+              ],
+              "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2080000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Login button",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3486000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the register page is displayed",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T03:36:15.328Z",
+        "line": 15,
+        "name": "Login with Valid credential",
+        "description": "",
+        "id": ";login-with-valid-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3302000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1645000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the website",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.user_navigate_to_the_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username as \"mohamed\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mohamed",
+                  "offset": 25
+                },
+                {
+                  "val": "12345",
+                  "offset": 51
+                }
+              ],
+              "location": "FeatureTagsStepDefinition.Login.user_enters_abc_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Login button",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3128000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the register page is displayed",
+            "match": {
+              "location": "FeatureTagsStepDefinition.Login.the_register_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
       }
@@ -130,7 +300,7 @@
     "description": "",
     "id": "",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Search_For_An_Iphone.feature",
+    "uri": "file:src/test/resources/FeatureTags/LoginFeature.feature",
     "tags": []
   }
 ]
