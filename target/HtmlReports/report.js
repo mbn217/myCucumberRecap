@@ -5,9 +5,12 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Search for an Tv Mount",
+  "name": "Add to cart",
   "description": "",
   "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user is on the result page",
@@ -39,6 +42,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/FeaturesAmazon/SearchForTVMount.feature");
 formatter.feature({
   "name": "search feature",
@@ -49,6 +55,9 @@ formatter.scenario({
   "name": "Search for an Tv Mount",
   "description": "",
   "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user is on the amazon home page",
@@ -78,6 +87,9 @@ formatter.match({
   "location": "StepDefinitionAmazon.SearchForTV.the_result_page_should_be_displayed()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

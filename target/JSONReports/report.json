@@ -3,17 +3,39 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-09T14:37:13.823Z",
+        "start_timestamp": "2021-04-10T04:51:50.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7509000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionAmazon.Hook.setup()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "Search for an Tv Mount",
+        "name": "Add to cart",
         "description": "",
-        "id": "add-to-cart-feature;search-for-an-tv-mount",
+        "id": "add-to-cart-feature;add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1631000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionAmazon.Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15056000000,
+              "duration": 4798000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 8036000000,
+              "duration": 8001000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2259000000,
+              "duration": 1640000000,
               "status": "passed"
             },
             "line": 6,
@@ -61,17 +83,39 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-09T14:37:39.279Z",
+        "start_timestamp": "2021-04-10T04:52:14.555Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7599000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionAmazon.Hook.setup()"
+            }
+          }
+        ],
         "line": 3,
         "name": "Search for an Tv Mount",
         "description": "",
         "id": "search-feature;search-for-an-tv-mount",
+        "after": [
+          {
+            "result": {
+              "duration": 1437000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionAmazon.Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10990000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -83,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 7483000000,
+              "duration": 6271000000,
               "status": "passed"
             },
             "line": 5,
@@ -95,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,

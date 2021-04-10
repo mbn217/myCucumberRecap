@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="44.72">
-<testcase classname="add to cart feature" name="Search for an Tv Mount" time="25.446">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="39.553">
+<testcase classname="add to cart feature" name="Add to cart" time="23.683">
 <system-out><![CDATA[Given user is on the result page............................................passed
 When user  click on the first result........................................passed
 Then user can click on the buy now button...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search feature" name="Search for an Tv Mount" time="18.541">
+<testcase classname="search feature" name="Search for an Tv Mount" time="15.32">
 <system-out><![CDATA[Given user is on the amazon home page.......................................passed
 When user search for a Tv Mount.............................................passed
 Then the result page should be displayed....................................passed
